@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+import Preloader from "./Preloader";
+
 
 
 function Body() {
@@ -24,6 +26,7 @@ function Body() {
   }
     return (
         <>
+             <Preloader />
   <div className="nav-button">
     <button onClick={myFunction}>
       <img src={require('./images/lines.jpeg')} alt="" id="nav-button" />
