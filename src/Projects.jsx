@@ -4,15 +4,16 @@ import Preloader from './Preloader';
 import Header from './Header';
 import Contact from './Contact';
 import Body from './Body';
-function App() {
+import Project_body from './Project_body';
+function Projects() {
   return (
+    
     <React.StrictMode>
-      {/* <Preloader /> */}
       <Header />
-      <Body />
+      <Project_body />
       <Contact />
     </React.StrictMode>
   );
 }
 
-export default App;
+export default Projects;
